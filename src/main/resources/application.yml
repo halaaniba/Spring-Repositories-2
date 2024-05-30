@@ -1,0 +1,19 @@
+server:
+  port: 5050
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/Spring-Repositories-2
+    username: root
+    password: 1234567
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show_sql: true
+    hibernate:
+      ddl-auto: create-drop
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+  application:
+    name: Spring-Repositories-2
+
